@@ -794,10 +794,13 @@ files:
 - name: src/cinema/exception/WrongPasswordException.java
   visible: true
   learner_created: true
+- name: src/cinema/config/AppConfig.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/13378#comment
 status: Solved
 feedback:
   message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
     Academy</a> to continue learning.
-  time: "Thu, 30 Nov 2023 12:32:08 UTC"
+  time: "Thu, 30 Nov 2023 23:45:49 UTC"
 record: -1

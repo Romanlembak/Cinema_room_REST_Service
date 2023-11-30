@@ -20,9 +20,9 @@ public class Controller {
     private final CinemaRoom cinemaRoom;
     private final ConcurrentMap<String, Seat> bookedSeats;
 
-    public Controller() {
-        cinemaRoom = new CinemaRoom(9, 9);
-        bookedSeats = new ConcurrentHashMap<>();
+    public Controller(CinemaRoom cinemaRoom, ConcurrentMap<String, Seat> bookedSeats) {
+        this.cinemaRoom = cinemaRoom;
+        this.bookedSeats = bookedSeats;
     }
 
     @GetMapping("/seats")
